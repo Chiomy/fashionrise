@@ -1,0 +1,77 @@
+@import url(http://fonts.googleapis.com/css?family=Mr+Dafoe);
+body{
+ background-image: url(images/bg.jpg);
+    background-repeat: no-repeat;
+  height:100%;
+    max-height: 100%;
+    min-height: 100%;
+}
+body,html { height:100%;
+    max-height: 100%;
+    min-height: 100%;
+}
+#page{
+    width:960px;
+    margin: 0 auto;
+    padding-top: 15px;:
+}
+#menu ul{
+ background:url(images/trans.png);
+ padding: 1%;
+ height:20px;
+    border: 1px solid black;
+    color:white;
+    text-transform: uppercase;
+    
+    
+}
+.clear{
+    clear:both;
+}
+#menu ul li{
+    float:left;
+    margin-right: 5%;
+   
+}
+#body{
+    margin-top: 20%;
+    text-align: center;
+}
+#body #largeText{
+    color:silver;
+    font-size: 64px;
+    font-family:Mr Dafoe !important; 
+        
+}
+
+#body #slogan{
+ color:silver;
+ text-transform: uppercase;
+    font-weight: bold;
+}
+#body button{
+ margin-top:2%;
+    background: #212121;
+    padding:1%;
+    box-shadow: 0px 0px 1px 1px black;
+    border:none;
+    color: white;
+    border-radius: 2px;
+}
+#showcase{
+ border:1px solid gray;   
+    padding:1%;
+    margin-top: 10%;
+}
+#showcase ul li{
+ float: left;   
+}
+#showcase ul li img{
+ width:300px;   
+}
+#showcase ul li p{
+ text-align: center;
+    font-family: Mr Dafoe;
+    color:white;
+    font-size:24px;
+}
